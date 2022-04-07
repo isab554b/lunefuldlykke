@@ -408,23 +408,252 @@
     <!-- Content -->
     <div class="2xl:container 2xl:mx-auto">
       <div class="px-4 py-8 md:px-6 md:py-12 lg:px-20">
-        <div class="mx-auto max-w-sm">
-          <h1
-            class="text-center text-3xl font-semibold text-gray-800 lg:text-4xl"
+        
+
+        <div class="2xl:container 2xl:mx-auto">
+          <div class="py-9 px-4 md:py-12 md:px-6 lg:px-20">
+            <div class="mb-4 flex items-center justify-between">
+              <h2
+                class="text-3xl font-semibold leading-7 text-gray-800 dark:text-white lg:text-4xl lg:leading-9"
+              >
+               Fotolitteratur
+              </h2>
+
+              <!-- filters Button (md and plus Screen) -->
+              <button
+                onclick="showFilters()"
+                class="flex hidden cursor-pointer items-center justify-center gap-x-4 bg-gray-800 py-4 px-6 text-base font-normal leading-4 text-white text-white hover:bg-gray-700 focus:ring focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-100 sm:flex"
+              >
+                <img
+                  class="dark:hidden"
+                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg1.svg"
+                />
+                <img
+                  class="hidden dark:block"
+                  src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg1dark.svg"
+                />
+                Filtrering
+              </button>
+            </div>
+            <p
+              class="text-xl font-medium leading-5 text-gray-600 dark:text-gray-400"
+            >
+              09 Produkter
+            </p>
+
+            <!-- Filters Button (Small Screen) -->
+
+            <button
+              onclick="showFilters()"
+              class="mt-6 block flex w-full cursor-pointer items-center justify-center bg-gray-800 py-2 text-base font-normal leading-4 text-white hover:bg-gray-700 focus:ring focus:ring-2 focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-100 sm:hidden"
+            >
+              <img
+                class="dark:hidden"
+                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg1.svg"
+                alt="filter"
+              />
+              <img
+                class="hidden dark:block"
+                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg1dark.svg"
+                alt="filter"
+              />
+              Filters
+            </button>
+          </div>
+
+          <div
+            id="filterSection"
+            class="relative block w-full bg-gray-50 py-9 px-4 dark:bg-gray-800 md:py-10 md:px-6 lg:px-20"
           >
-            Fotolitteratur
-          </h1>
-          <p class="pt-8 text-center">
-            Her finder du vores udvalg af flotte kunstplakater, klar til at
-            komme op og hænge på din væg;-)
-          </p>
-          <p class="pt-8 text-center text-base leading-normal sm:leading-4">
-            Kategorier: <a href="kategori.html" class="underline">Naturen</a> /
-            <a href="kategori.html" class="underline">Byen</a> /
-            <a href="kategori.html" class="underline">Sort/hvid</a> /
-            <a href="kategori.html" class="underline">Minimalisme</a>
-          </p>
+            <!-- Cross button Code -->
+            <div
+              onclick="closeFilterSection()"
+              class="absolute right-0 top-0 cursor-pointer py-9 px-4 md:py-10 md:px-6 lg:px-20"
+            >
+              <img
+                class="dark:hidden"
+                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg2.svg"
+                alt="cross"
+              />
+              <img
+                class="hidden dark:block"
+                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg2dark.svg"
+                alt="cross"
+              />
+            </div>
+<!-- Sorter efter Section -->
+            <div class="mt-4">
+              <div class="flex space-x-2 text-gray-800 dark:text-white">
+    <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg4.svg" alt="materials"/>
+                        <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg4dark.svg" alt="materials"/>
+                <p
+                  class="text-xl font-medium leading-5 lg:text-2xl lg:leading-6"
+                >
+                 Sorter efter
+                </p>
+              </div>
+              <div class="mt-4 flex space-x-8">
+                <div class="flex items-center justify-center ">
+                  <input
+                    class="mr-2 h-4 w-4 text-black"
+                    type="checkbox"
+                    id="LS"
+                    name="LS"
+                    value="LS"
+                  />
+                  <div class="inline-block">
+                    <div class="flex items-center justify-center space-x-6">
+                      <label
+                        class="mr-2 text-sm font-normal leading-3 text-gray-600 dark:text-gray-300"
+                        for="LS"
+                        >Nyheder</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-center">
+                  <input
+                    class="mr-2 h-4 w-4"
+                    type="checkbox"
+                    id="LxL"
+                    name="LxL"
+                    value="LxL"
+                  />
+                  <div class="inline-block">
+                    <div class="flex items-center justify-center space-x-6">
+                      <label
+                        class="mr-2 text-sm font-normal leading-3 text-gray-600 dark:text-gray-300"
+                        for="LxL"
+                        >Bestseller</label
+                      >
+                    </div>
+                  </div>
+                </div>
+            
+              </div>
+            </div>
+            <br />
+            <hr class="w-full bg-gray-200 md:mb-10 lg:w-6/12" />
+
+
+            <!-- Collection Section -->
+            <div class="mt-4">
+              <div class="flex space-x-2 text-gray-800 dark:text-white">
+                <img class="dark:hidden" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg6.svg" alt="collection"/>
+                        <img class="hidden dark:block" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/filter1-svg6dark.svg" alt="collection"/>
+                <p
+                  class="text-xl font-medium leading-5 lg:text-2xl lg:leading-6"
+                >
+                  Tema
+                </p>
+              </div>
+              <div class="mt-4 flex space-x-8">
+                <div class="flex items-center justify-center">
+                  <input
+                    class="mr-2 h-4 w-4"
+                    type="checkbox"
+                    id="LS"
+                    name="LS"
+                    value="LS"
+                  />
+                  <div class="inline-block">
+                    <div class="flex items-center justify-center space-x-6">
+                      <label
+                        class="mr-2 text-sm font-normal leading-3 text-gray-600 dark:text-gray-300"
+                        for="LS"
+                        >Abstrakt</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-center">
+                  <input
+                    class="mr-2 h-4 w-4"
+                    type="checkbox"
+                    id="LxL"
+                    name="LxL"
+                    value="LxL"
+                  />
+                  <div class="inline-block">
+                    <div class="flex items-center justify-center space-x-6">
+                      <label
+                        class="mr-2 text-sm font-normal leading-3 text-gray-600 dark:text-gray-300"
+                        for="LxL"
+                        >Minimalisme</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-center">
+                  <input
+                    class="mr-2 h-4 w-4"
+                    type="checkbox"
+                    id="LxL"
+                    name="LxL"
+                    value="LxL"
+                  />
+                  <div class="inline-block">
+                    <div class="flex items-center justify-center space-x-6">
+                      <label
+                        class="mr-2 text-sm font-normal leading-3 text-gray-600 dark:text-gray-300"
+                        for="LxL"
+                        >Landskaber</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center justify-center">
+                  <input
+                    class="mr-2 h-4 w-4"
+                    type="checkbox"
+                    id="LS"
+                    name="LS"
+                    value="LS"
+                  />
+                  <div class="inline-block">
+                    <div class="flex items-center justify-center space-x-6">
+                      <label
+                        class="mr-2 text-sm font-normal leading-3 text-gray-600 dark:text-gray-300"
+                        for="LS"
+                        >Byer
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Apply Filter Button (Large Screen) -->
+
+            <div
+              class="absolute right-0 bottom-0 hidden py-9 px-4 md:block md:py-10 md:px-6 lg:px-20"
+            >
+              <button
+                onclick="applyFilters()"
+                class="bg-gray-800 py-4 px-6 text-base font-medium  text-white hover:bg-gray-700 focus:ring focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-100"
+              >
+                Anvend filter
+              </button>
+            </div>
+
+            <!-- Apply Filter Button (Table or lower Screen) -->
+
+            <div class="mt-10 block w-full md:hidden">
+              <button
+                onclick="applyFilters()"
+                class="w-full bg-gray-800 py-4 px-10 text-base font-medium  text-white hover:bg-gray-700 focus:ring focus:ring-gray-800 focus:ring-offset-2 dark:bg-white dark:text-gray-800 dark:hover:bg-gray-100"
+              >
+                Apply Filter
+              </button>
+            </div>
+          </div>
         </div>
+
+        <style>
+          .checkbox:checked + .check-icon {
+            display: flex;
+          }
+        </style>
+        
         <div
           class="mt-8 grid grid-cols-1 gap-6 md:mt-10 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 2xl:grid-cols-4"
         >

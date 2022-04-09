@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>index.html</loc>
+   </url>
+
+   <url>
+      <loc>kategori.html</loc>
+   </url>
+
+   <url>
+      <loc>shop.html</loc>
+   </url>
+
+   <url>
+      <loc>produkt.html</loc>
+   </url>
+
+   <url>
+      <loc>shoplitteratur.html</loc>
+   </url>
+
+    <url>
+      <loc>produktbog.html</loc>
+   </url>
+
+   <url>
+      <loc>kunstnere.html</loc>
+   </url>
+
+    <url>
+      <loc>kunstner.html</loc>
+   </url>
+
+   <url>
+      <loc>inspiration.html</loc>
+   </url>
+
+   <url>
+      <loc>how-to-post.html</loc>
+   </url>
+
+   <url>
+      <loc>om.html</loc>
+   </url>
+
+   <url>
+      <loc>kampagne.html</loc>
+   </url>
+
+   <url>
+      <loc>kampagne2.html</loc>
+   </url>
+
+
+</urlset>

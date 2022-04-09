@@ -1,23 +1,28 @@
+
+   
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lunefuld Lykke</title>
     <link rel="stylesheet" href="tailwind.css" />
     <script src="scripts.js" defer></script>
-  </head>
+</head>
 
-  <body>
+<body>
+
     <!-- 
     Indhold:
     Navigation
-    Content
+    Article
+    Tilmeld nyhedsbrev
     Footer
   -->
 
-    <!-- Navigation -->
+      <!-- Navigation -->
     <div class="bg-gray-800 px-4 py-3 text-white">
       <p class="text-center text-sm font-medium">
         Levering indenfor 2-5 arbejdsdage | Gratis fragt ved køb over 299 DKK
@@ -103,6 +108,7 @@
               <ul
                 class="hidden w-8/12 items-center justify-center space-x-8 md:flex"
               >
+            
                 <li>
                   <a
                     href="shop.html"
@@ -364,8 +370,6 @@
                       />
                     </div>
                   </a>
-                </li>
-
                 <li>
                   <a
                     href="inspiration.html"
@@ -458,297 +462,171 @@
     </div>
     <div class="bg-gray-800 px-4 py-3 text-white">
       <p class="text-center text-sm font-medium">
-        Hos Lunefuld Lykke identificerer vi os med personer, der har det svært,
-        og hjælper dem med at komme videre!
-        <a class="underline" href="/alpinejs"> Læs mere </a>
+        Hos Lunefuld Lykke identificerer vi os med personer, der har det svært, og hjælper dem med at komme videre! <a class="underline" href="/alpinejs"> Læs mere </a>
       </p>
     </div>
     <!-- Navigation slut -->
 
-    <!-- Content -->
-    <div class="flex items-center justify-center">
-      <div
-        class="w-96 py-9 px-4 sm:w-auto md:py-12 md:px-6 lg:px-20 lg:py-16 2xl:container 2xl:mx-auto"
-      >
-        <div role="main" class="flex flex-col items-center justify-center">
-          <h1
-            class="text-center text-4xl font-semibold leading-9 text-gray-800"
-          >
-            Inspiration
-          </h1>
-          <p
-            class="mt-4 w-11/12 text-center text-base leading-normal text-gray-600 md:w-10/12 lg:w-1/2"
-          >
-            Hvem laver de flotteste fotos og hvordan kan du pynte hjemmet med
-            fotoplakater? Læs med her for at få lidt inspiration:-)
-          </p>
+    <!-- Article -->
+    <div itemscope itemtype="https://schema.org/HowTo">
+
+
+        <h1 itemprop="name" class="text-3xl mt-16 md:text-3xl xl:text-4xl font-semibold text-gray-900 text-center">Fire gode steps til at sammensætte en plakatvæg
+        </h1>
+      
+        <div itemprop="step" class="">
+        <div class="container mx-auto py-9 md:py-12 lg:py-24">
+            <div class="flex flex-col lg:flex-row justify-center items-strech mx-4">
+                <div class="lg:w-4/12 flex justify-center items-center">
+                    <div itemscope itemtype="https://schema.org/HowToSection">
+                        <h2 class=" text-3xl md:text-3xl xl:text-3xl font-semibold text-gray-900 w-7/10">
+                            <span itemprop="position" content="1"> 1) </span> <span>Overvej hvordan farverne passer sammen</span></h2>
+                        <p itemprop="text" class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">
+                            Overvej hvilket udtryk du gerne vil udtrykke med din plakatvæg. Skal det være ren sort/hvid plakat væg? 
+                            Eller en blanding af sort/hvid plakater og få plakater med farver? 
+                            Det kan også være en samling af plakater i samme farvetoner eller en vild farvelade med mange farver.
+ </p>
+
+ 
+
+ 
+ <li class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">Vær bevidst om hvilke farve du sammensætter til plakatvæggen.</li>
+<li class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">Når man beslutter sig for farvertoner til plakatvæggen kan det også være kan det være en god ide at kigge på de omgivelser vægen er en sammenhæng med. </li>
+                    </div>
+                </div>
+                <div class="lg:w-8/12 mt-6 md:mt-8 lg:mt-0">
+                    <div class="relative w-full h-full">
+                        <img itemprop="image" src="content/how-to/billedvaeg_content_01_Farver.png" alt="Farver" role="img"
+                            class="w-full h-full relative hidden lg:block" />
+                        <img itemprop="image" src="content/how-to/billedvaeg_content_01_Farver.png" alt="Farver" role="img"
+                            class="w-full h-full lg:hidden" />
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="mt-8 items-stretch md:mt-12 lg:flex">
-          <div class="lg:w-1/2">
-            <div
-              class="items-center justify-between gap-x-6 sm:flex xl:gap-x-8"
-            >
-              <div class="relative sm:w-1/2">
-                <div>
-                  <p
-                    class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white"
-                  >
-                    9. marts 2022
-                  </p>
-                  <div class="absolute bottom-0 left-0 p-6">
-                    <h2 class="5 text-xl font-semibold text-white">
-                      Find din signalfarve
-                    </h2>
-                    <p class="mt-2 text-base leading-4 text-white">
-                      Guide til farver i hjemmet
-                    </p>
-                    <a
-                      href="/src/how-to-post.html"
-                      class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
-                    >
-                      <p class="pr-2 text-sm font-medium leading-none">
-                        Læs mere
-                      </p>
-                      <img
-                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
-                        alt="arrow"
-                      />
-                    </a>
-                  </div>
+</div>
+
+<div itemscope itemtype="https://schema.org/HowTo">
+    <div itemprop="step" class="">
+        <div class="container mx-auto py-9 md:py-12 lg:py-24">
+            <div class="flex flex-col lg:flex-row justify-center items-strech mx-4">
+                <div class="lg:w-6/12 mt-6 md:mt-8 lg:mt-0">
+                    <div class="relative w-full h-full">
+                        <img itemprop="image" src="content/how-to/billedvaeg_content_02_Motiver.png" alt="Motiver" role="img"
+                            class="w-full h-full relative hidden lg:block" />
+                        <img itemprop="image" src="content/how-to/billedvaeg_content_02_Motiver.png" alt="Motiver" role="img"
+                            class="w-full h-full lg:hidden" />
+                    </div>
                 </div>
-                <img
-                  src="content/posters/poster-23.jpg"
-                  class="w-full"
-                  alt="chair"
-                />
-              </div>
-              <div class="relative mt-4 sm:mt-0 sm:w-1/2">
-                <div>
-                  <p
-                    class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white"
-                  >
-                    23. Februar 2022
-                  </p>
-                  <div class="absolute bottom-0 left-0 p-6">
-                    <h2 class="5 text-xl font-semibold text-white">
-                      Naturen på væggen
-                    </h2>
-                    <p class="mt-2 text-base leading-4 text-white">
-                      Byd naturen ind i stuen
-                    </p>
-                    <a
-                      href="/src/how-to-post.html"
-                      class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
-                    >
-                      <p class="pr-2 text-sm font-medium leading-none">
-                        Læs mere
-                      </p>
-                      <img
-                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
-                        alt="arrow"
-                      />
-                    </a>
-                  </div>
+                <div class="lg:w-6/12 flex justify-center items-center ml-8">
+                    <div>
+                        <h2 class="text-3xl md:text-3xl xl:text-3xl font-semibold text-gray-900 w-7/12">
+                            <span itemprop="position" content="2"> 2) </span> <span>Hvilke motiver skal hænges på væggen?</span></h2>
+                        <p itemprop="text" class=" md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">
+                            Ligesom farverne er motiverne på plakaterne også med til at skabe et bestemt udtryk. 
+                            Skal de være ensartede eller skal der være kontraster når øjet ser væggen? 
+                            Og kan nogle motiver være med til at skabe en overraskelse når man betragter væggen.
+                            </p>
+
+                          
+
+ 
+                            <li class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">Hvis man har mange forskellige motiver kan det være en god ide at gruppere, så nogle af billederne taler sammen. </li>
+                           <li class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">Det kan også være en god ide at sammensætte motiver med stor kontrast, da de på den måde kan fremhæve hinanden. </li>
+                    </div>
                 </div>
-                <img
-                  src="content/posters/poster-5.jpg"
-                  class="w-full"
-                  alt="wall design"
-                />
-              </div>
             </div>
-            <div class="relative">
-              <div>
-                <p
-                  class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white md:p-10"
-                >
-                  2. Februar 2022
-                </p>
-                <div class="absolute bottom-0 left-0 p-6 md:p-10">
-                  <h2 class="5 text-xl font-semibold text-white">
-                    Møbler og plakater
-                  </h2>
-                  <p class="mt-2 text-base leading-4 text-white">
-                    Guide til billedrammer og møbler
-                  </p>
-                  <a
-                    href="/src/how-to-post.html"
-                    class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
-                  >
-                    <p class="pr-2 text-sm font-medium leading-none">
-                      Læs mere
-                    </p>
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
-                      alt="arrow"
-                    />
-                  </a>
-                </div>
-              </div>
-              <img
-                src="content/kalvebod-poster-vaeg.jpg"
-                alt="sitting place"
-                class="mt-8 hidden w-full sm:block md:mt-6"
-              />
-              <img
-                class="mt-4 w-full sm:hidden"
-                src="content/kalvebod-poster-vaeg.jpg"
-                alt="sitting place"
-              />
-            </div>
-          </div>
-          <div
-            class="mt-4 flex-col justify-between md:mt-6 lg:ml-4 lg:mt-0 lg:flex lg:w-1/2 xl:ml-8"
-          >
-            <div class="relative">
-              <div>
-                <p
-                  class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white md:p-10"
-                >
-                  12. Januar 2022
-                </p>
-                <div class="absolute bottom-0 left-0 p-6 md:p-10">
-                  <h2 class="5 text-xl font-semibold text-white">Husk lyset</h2>
-                  <p class="mt-2 text-base leading-4 text-white">
-                    Lys rummet godt op
-                  </p>
-                  <a
-                    href="/src/how-to-post.html"
-                    class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
-                  >
-                    <p class="pr-2 text-sm font-medium leading-none">
-                      Læs mere
-                    </p>
-                    <img
-                      src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
-                      alt="arrow"
-                    />
-                  </a>
-                </div>
-              </div>
-              <img
-                src="https://i.ibb.co/6Wfjf2w/img-4.png"
-                alt="sitting place"
-                class="hidden w-full sm:block"
-              />
-              <img
-                class="w-full sm:hidden"
-                src="https://i.ibb.co/dpXStJk/Rectangle-29.png"
-                alt="sitting place"
-              />
-            </div>
-            <div
-              class="mt-4 items-center justify-between gap-x-6 sm:flex md:mt-6 xl:gap-x-8"
-            >
-              <div class="relative w-full">
-                <div>
-                  <p
-                    class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white"
-                  >
-                    3. Januar 2022
-                  </p>
-                  <div class="absolute bottom-0 left-0 p-6">
-                    <h2 class="5 text-xl font-semibold text-white">
-                      Edgar Poe
-                    </h2>
-                    <p class="mt-2 text-base leading-4 text-white">
-                      Årets kunstner
-                    </p>
-                    <a
-                      href="/src/how-to-post.html"
-                      class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
-                    >
-                      <p class="pr-2 text-sm font-medium leading-none">
-                        Læs mere
-                      </p>
-                      <img
-                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
-                        alt="arrow"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <img
-                  src="content/kalvebod-poster.jpg"
-                  class="w-full"
-                  alt="chair"
-                />
-              </div>
-              <div class="relative mt-4 w-full sm:mt-0">
-                <div>
-                  <p
-                    class="absolute top-0 right-0 p-6 text-xs font-medium leading-3 text-white"
-                  >
-                    1. December 2022
-                  </p>
-                  <div class="absolute bottom-0 left-0 p-6">
-                    <h2 class="5 text-xl font-semibold text-white">
-                      Vinterens motiver
-                    </h2>
-                    <p class="mt-2 text-base leading-4 text-white">
-                      Nyd kulden - indenfor
-                    </p>
-                    <a
-                      href="/src/how-to-post.html"
-                      class="mt-4 flex cursor-pointer items-center text-white hover:text-gray-200 hover:underline focus:underline focus:outline-none"
-                    >
-                      <p class="pr-2 text-sm font-medium leading-none">
-                        Læs mere
-                      </p>
-                      <img
-                        src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-I-svg1.svg"
-                        alt="arrow"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <img
-                  src="content/posters/poster-4.jpg"
-                  class="w-full"
-                  alt="wall design"
-                />
-              </div>
-            </div>
-          </div>
         </div>
-        <!-- previous/next -->
-        <div class="mt-12 flex items-end justify-center">
-          <div class="flex flex-row items-center justify-center space-x-8">
-            <button
-              class="border-b-2 border-transparent text-base leading-none text-gray-800 focus:border-gray-800 focus:outline-none"
-            >
-              <p>1</p>
-            </button>
-            <button
-              class="border-b-2 border-transparent text-base leading-none text-gray-800 focus:border-gray-800 focus:outline-none"
-            >
-              <p>2</p>
-            </button>
-            <button
-              class="border-b-2 border-transparent text-base leading-none text-gray-800 focus:border-gray-800 focus:outline-none"
-            >
-              <p>3</p>
-            </button>
-            <button class="flex items-center justify-center">
-              <img
-                class=""
-                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/product-grid-2-svg4.svg"
-                alt="next"
-              />
-            </button>
-          </div>
-        </div>
-        <!-- previous/next slut -->
-      </div>
+    </div>
     </div>
 
-    <!-- Content slut-->
+    <div itemprop="step" class="">
+    <div class="container mx-auto py-9 md:py-12 lg:py-24">
+        <div class="flex flex-col lg:flex-row justify-center items-strech mx-4">
+            <div class="lg:w-4/12 flex justify-center items-center">
+                <div itemscope itemtype="https://schema.org/HowToSection">
+                    <h2 class=" text-3xl md:text-3xl xl:text-3xl font-semibold text-gray-900 w-7/10">
+                       <span itemprop="position" content="3"> 3) </span> <span> Motiver i forskellige størrelser og formater </span>
+                    </h2>
+                    <p itemprop="text" class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">
+                        Overvej hvilken størrelse billeder du skal bruge til din væg. 
+                        Er der mange forskellige formater der skal passes ind i layoutet eller vil du have præcis de samme to formater?
+                        Flere formater og både bred og højformat skaber ofte et dynamisk udtryk, der kan være spændende at gå på opdagelse i. 
+                        Udfordringen med denne slags layout er at det ofte bliver meget rodet, og derfor kan det være en fordel at følge nogle principper der kan hjælpe med at skabe ro. 
+                        Det kan også være indbydende for øjet bare at gentage den samme størrelse, - på den måde kan motivet også komme mere til sin ret.
+                        
+</p>
+
+
+
+
+<li class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">Udvælg formater til din billedvæg. både plakater i forskellige størrelser, høj- og bred-format</li>
+<li class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">Vælger man at gentage det samme format kan man eks. bryde layoutet ved at tage et eller to billeder ud. </li>
+                </div>
+            </div>
+            <div class="lg:w-8/12 mt-6 md:mt-8 lg:mt-0">
+                <div class="relative w-full h-full">
+                    <img itemprop="image" src="content/how-to/billedvaeg_content_03_Størrelse_formater.png" alt="Formater" role="img"
+                        class="w-full h-full relative hidden lg:block" />
+                    <img itemprop="image" src="content/how-to/billedvaeg_content_03_Størrelse_formater.png" alt="Formater" role="img"
+                        class="w-full h-full lg:hidden" />
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+</div> 
+
+
+<div itemprop="step" class="">
+    <div class="container mx-auto py-9 md:py-12 lg:py-24">
+        <div class="flex flex-col lg:flex-row justify-center items-strech mx-4">
+            <div class="lg:w-6/12 mt-6 md:mt-8 lg:mt-0">
+                <div class="relative w-full h-full">
+                    <img itemprop="image" src="content/how-to/billedvaeg_content_04_Layout1.png" alt="Motiver" role="img"
+                        class="w-full h-full relative hidden lg:block" />
+                    <img itemprop="image" src="content/how-to/billedvaeg_content_04_Layout1.png" alt="Motiver" role="img"
+                        class="w-full h-full lg:hidden" />
+                </div>
+            </div>
+            <div class="lg:w-6/12 flex justify-center items-center ml-8">
+                <div>
+                    <h2 class="text-3xl md:text-3xl xl:text-3xl font-semibold text-gray-900 w-7/12">
+                        <span itemprop="position" content="4"> 4) </span> <span>Layout af en spændende billedvæg</span></h2>
+                    <p itemprop="text" class=" md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">
+                        At layoute en billedvæg med flere billeder er en svær øvelse. Er der er mange eller få billeder? 
+                        Hvilke farver, hvilke motiver og hvilke størrelser skal sættes sammen som en enhed?
+
+                        Man kan bruge forskellige metoder til at skabe et fedt udtryk. Her er nogle du kan overveje at bruge hvis du har mange billeder. 
+                        Hvis du har billederne i fysisk form, så start med at lave layoutet på gulvet, 
+                        stil dig op på en stol og tag et billede når du er tilfreds med første udkast. 
+                        Lav denne øvelser et par gange før du begynder at hænge dem op på væggen.
+                        
+                        </p>
+
+
+
+                        <li class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">Anvend linjer der flugter på forskellige måder.</li>
+                       <li class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">Arbejd med at have den samme afstand mellem rammerne. Kan man have den sammen afstand giver det ro.</li>
+                       <li class="md:w-7/12 lg:w-11/12 xl:w-10/12 mt-4 lg:mt-5 text-base leading-normal text-gray-600">Man kan også arbejde med at placere lidt abstrakt på væggen. Det kan skabe et mere livligt og overraskende look.</li>
+
+                </div>
+            </div>
+    </div>
+</div>
+
+</div>
+</div>
+    <!-- Article slut-->
+
+
+  >
 
     <!-- Footer -->
     <!-- Highlights start -->
     <div class=" ">
       <div
-        class="mt-4 flex flex-col justify-evenly gap-8 bg-gray-50 p-12 py-10 dark:bg-gray-800 md:flex-row lg:flex-row"
+        class="flex flex-col p-12 gap-8 justify-evenly bg-gray-50 py-10 dark:bg-gray-800 md:flex-row lg:flex-row  mt-4 "
       >
         <!-- Delivery grid Card -->
         <div class="">
@@ -765,13 +643,13 @@
           <h3
             class="mt-8 text-xl font-semibold leading-5 text-gray-800 dark:text-white lg:mt-10"
           >
-            Hurtig levering & gratis fragt
+            Hurtig levering & gratis fragt 
           </h3>
           <p
             class="mt-4 w-full text-base font-normal leading-6 text-gray-600 dark:text-gray-300 md:w-9/12 lg:w-full"
           >
             Levering indenfor 2-5 arbejdsdage
-            <br />
+            <br>
             Gratis fragt ved køb over 299 DKK
           </p>
         </div>
@@ -798,7 +676,7 @@
             class="mt-4 w-full text-base font-normal leading-6 text-gray-600 dark:text-gray-300 md:w-9/12 lg:w-full"
           >
             Vores medearbejdere sidder klar, til at hjælpe dig
-            <br />
+            <br>
             Kontakt os på 50 52 72 16 eller lunefuldlykke@mail.com
           </p>
         </div>
@@ -824,8 +702,8 @@
           <p
             class="mt-4 w-full text-base font-normal leading-6 text-gray-600 dark:text-gray-300 md:w-9/12 lg:w-full"
           >
-            Lunefuld Lykke passer på Jorden
-            <br />
+            Lunefuld Lykke passer på Jorden 
+            <br>
             Vi er en FSC®-certificeret virksomhed
           </p>
         </div>
@@ -1037,6 +915,6 @@
     </footer>
     <!-- Footer slut -->
 
-    <script type="module" src="index.js"></script>
-  </body>
+</body>
+
 </html>
